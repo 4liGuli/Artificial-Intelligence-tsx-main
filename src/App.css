@@ -1,0 +1,441 @@
+:root {
+  --header-left:#0A121F;
+  --header-right:#0A111F;
+  --introduction-left: #09101e;
+  --introduction-right: #09111e;
+  --btn-rengi:#3A68B8;
+  --awardup-card:#0d1522;
+  --awarddown-card:#19202d;
+  --header2:#020a18;
+  --endingg:#080f1d;
+}
+.Esas{
+  background-color: #020a18;
+}
+
+.logo {
+  width: 200px;
+}
+.navbar-brand img{
+  margin-left: 20%;
+}
+.navbar-collapse{
+  margin-right: 10%;
+}
+.navbar-collapse a{
+  margin-right: 40px;
+}
+
+
+.menim-backgroundum {
+  /* gradient kodu */
+  background:linear-gradient(to right, var(--header-left), var(--header-right))
+}
+
+
+.introduction-fon-rengi {
+  background: linear-gradient(to right, var(--introduction-left), var(--introduction-right));
+}
+
+.introduction h6{
+  font-size: 18px;
+  color: #3A68B8;
+  margin-left: 10%;
+}
+.introduction h1{
+  font-size: 55px;
+  margin-left: 10%;
+}
+
+.introduction p{
+  font-size: 18px;
+  margin-left: 10%;
+  color: #b7babe;
+}
+
+.introduction h1{
+  font-size: 55px;
+  margin-left: 10%;
+}
+
+.introduction .get-started{
+  margin-left: 10%;
+}
+
+
+.sign-in, .watch-video, .get-started, .deep-learning-btn {
+  color:#fff;
+  border-radius: 5px;
+  border-color:transparent;
+  background-color: var(--btn-rengi);
+}
+
+.deep-learning-btn {
+  width: 152px;
+  height: 50px;
+}
+
+.deep-right article {
+margin: 20px 0;
+opacity: .7;
+}
+
+
+.sign-in {
+width: 112px;
+height: 52px;
+}
+
+.watch-video {
+  width: 217px;
+  height: 57px;
+  
+  }
+  
+  .get-started {
+  width: 171px;
+  height: 57px;
+  }
+
+
+  .mySwiper {
+    display: flex !important;
+  }
+
+  .mySwiper img {
+    height: 70px;
+  }
+
+
+  .mobile-menu {
+    height: 100vh;
+    width: 0;
+    position: fixed;
+    background:rgba(0,0,0,.6);
+    overflow-x:hidden;
+    z-index: 999999;
+    transition: all 1.2s linear;
+  }
+
+  .mobile-menu.aktiv {
+    width: 100%;
+  }
+
+  .mobile-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .mobile-links a {
+    color:#fff;
+    text-decoration: none;
+    font-size: 28px;
+  }
+
+  .closeicon {
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    font-size:30px;
+  }
+
+  .sshirketler{
+    background:linear-gradient(to right, var(--introduction-left), var(--introduction-right) );
+  }
+  .deep-learning {
+    background-color: var(--header2);
+  }
+
+  .deep-learning h2{
+    margin-left: 10%;
+    font-size: 40px;
+  }
+  .deep-learning article{
+    margin-left: 10%;
+    font-size: 16px;
+  }
+  .deep-learning button{
+    margin-left: 10%;
+  }
+  .award-section{
+    background-color: var(--header2);
+  }
+
+  .award-card {
+    background: linear-gradient(to bottom, var(--awardup-card), var(--awarddown-card));
+    border-radius: 15px;
+    padding: 30px;
+  }
+
+  .swiper-pagination-clickable .swiper-pagination-bullet{
+    background-color: #2C3647;
+    width: 15px;
+    height: 15px;
+  }
+
+  .award-card img {
+    width: 73px;
+    display: block;
+    margin: 20px auto;
+  }
+
+  .award-card h2{
+    color: #b7babe;
+    font-size: 25px;
+  }
+
+  .award-card p{
+    color: #b7babe;
+    font-size: 16px;
+    margin: 30px 0;
+  }
+
+  .clients-say {
+    background-color: var(--header2);
+  }
+  .clients-say h2{
+    font-size: 40px;
+    margin-left: 10%;
+  }
+  .clients-say article{
+    font-size: 16px;
+    color: #b7babe;
+    margin-left: 10%;
+  }
+
+  .end-ing{
+    background-color: var(--endingg);
+
+  }
+  .logo-iconsend{
+    max-width: 1280px;
+    margin: auto;
+    margin-top: 50px;
+  }
+  
+  .logo-iconend-row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .logo-icon1end ul{
+    list-style: none;
+    padding: 0;
+  }
+  
+  .logo-icon1end{
+    margin-bottom: 40px;
+    padding: 0 35px;
+  }
+  
+  .logo-icon1end h2{
+    font-size: 18px;
+    color: #3A68B8;
+    text-transform: capitalize;
+    margin-bottom: 1px;
+    font-weight: 500;
+    position: relative;
+  }
+  
+  .logo-icon1end h5{
+    font-size: 18px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+  }
+  
+  .logo-icon1end ul li a{
+    font-size: 14px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 450;
+    color: #bbbbbb;
+    margin-bottom: 20px;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  
+  .logo-icon1end ul li a:hover{
+    color: #FFFFFF;
+    padding-left: 8px;
+  }
+  
+  .logo-icon11end ul nav li a{
+    font-weight: 450;
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+
+@media(max-width:576px) {
+    .deep-right {
+      margin-top: 70px;
+    }
+    .clients-say h2{
+      font-size: 25px;
+      margin-left: 5%;
+    }
+    .clients-say article{
+      font-size: 12px;
+      margin-left: 5%;
+    }
+    .deep-learning h2{
+      margin-left: 5%;
+      font-size: 25px;
+    }
+    .deep-learning article{
+      margin-left: 5%;
+      font-size: 12px;
+    }
+    .deep-learning button{
+      margin-left: 5%;
+    }
+    .introduction h6{
+      font-size: 12px;
+      margin-left: 0%;
+      margin-top: -50px;
+    }
+    
+    .introduction p{
+      font-size: 12px;
+      margin-left: 0%;
+    }
+    
+    .introduction h1{
+      font-size: 35px;
+      margin-left: 0%;
+    }
+    
+    .introduction .get-started{
+      margin-left: 0%;
+    }
+    .navbar-brand img{
+      margin-left: 0%;
+    }
+}
+
+
+@media(min-width:768px) {
+  
+  .logo {
+    width: 300px;
+  }
+  .watch-video {
+    width: 217px;
+    height: 57px;
+    
+  }  
+  .get-started {
+    width: 171px;
+    height: 57px;
+  }
+    .deep-right {
+      margin-top: 70px;
+    }
+    .clients-say h2{
+      font-size: 25px;
+      margin-left: 5%;
+    }
+    .clients-say article{
+      font-size: 12px;
+      margin-left: 5%;
+    }
+    .deep-learning h2{
+      margin-left: 5%;
+      font-size: 25px;
+    }
+    .deep-learning article{
+      margin-left: 5%;
+      font-size: 12px;
+    }
+    .deep-learning button{
+      margin-left: 5%;
+    }
+    .introduction h6{
+      font-size: 12px;
+      margin-left: 0%;
+      margin-top: -50px;
+    }
+    
+    .introduction p{
+      font-size: 12px;
+      margin-left: 0%;
+    }
+    
+    .introduction h1{
+      font-size: 35px;
+      margin-left: 0%;
+    }
+    
+    .introduction .get-started{
+      margin-left: 0%;
+    }  
+    .navbar-brand img{
+      margin-left: 0%;
+    }
+}
+
+
+@media(min-width:1024px) {
+  .logo {
+    width: 300px;
+  }
+  .watch-video {
+    width: 217px;
+    height: 57px;
+    
+  }  
+    .get-started {
+    width: 171px;
+    height: 57px;
+    }
+    .deep-right {
+      margin-top: 70px;
+    }
+    .clients-say h2{
+      font-size: 35px;
+      margin-left: 10%;
+    }
+    .clients-say article{
+      font-size: 18px;
+      margin-left: 10%;
+    }
+    .deep-learning h2{
+      margin-left: 10%;
+      font-size: 35px;
+    }
+    .deep-learning article{
+      margin-left: 10%;
+      font-size: 18px;
+    }
+    .deep-learning button{
+      margin-left: 10%;
+    }
+    .introduction h6{
+      font-size: 18px;
+      margin-left: 10%;
+      margin-top: 0px;
+    }
+    
+    .introduction p{
+      font-size: 18px;
+      margin-left: 10%;
+    }
+    
+    .introduction h1{
+      font-size: 55px;
+      margin-left: 10%;
+    }
+    
+    .introduction .get-started{
+      margin-left: 10%;
+    }
+    .navbar-brand img{
+      margin-left: 20%;
+    }
+}
