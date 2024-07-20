@@ -1,7 +1,5 @@
 import React from "react";
 
-import { ReactTyped } from "react-typed";
-
 
 import Button from "./Button";
 
