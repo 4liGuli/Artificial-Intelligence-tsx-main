@@ -28,7 +28,6 @@
 
 
 .menim-backgroundum {
-  /* gradient kodu */
   background:linear-gradient(to right, var(--header-left), var(--header-right))
 }
 
@@ -113,7 +112,7 @@ height: 52px;
     background:rgba(0,0,0,.6);
     overflow-x:hidden;
     z-index: 999999;
-    transition: all 1.2s linear;
+    transition: all 0.3s linear;
   }
 
   .mobile-menu.aktiv {
@@ -268,6 +267,38 @@ height: 52px;
     font-weight: 450;
     color: white;
     margin-bottom: 15px;
+  }
+
+  form {
+    width: 503px;
+    background-color: var(--award-card);
+    box-shadow: 0px 0px 100px var(--btn-rengi);
+    padding: 50px;
+    border-radius: 10px;
+
+    
+  }
+
+  form input, form textarea {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    border-bottom: 1px solid #dedede !important;
+    resize: none;
+    color:#fff !important;
+    
+  }
+
+
+  .contact-form {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to bottom,var(--header-left), var(--header-right));
+
+  }
+  .form-group label{
+    color: var(--btn-rengi);
   }
   
 

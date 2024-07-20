@@ -25,15 +25,12 @@ const Contact: React.FC = () => {
       }
       };
 
-
-
-
   return (
     <div className="contact-form">
         <div className="container d-flex justify-content-center align-items-center">
                <form onSubmit={sendEmail} ref={menimFormum}>
 <div className="form-group">
-        <label htmlFor="ad">Name</label>
+        <label htmlFor="ad">Name</label >
         <input
           type="text"
           className="form-control shadow-none"
@@ -48,7 +45,7 @@ const Contact: React.FC = () => {
           type="email"
           className="form-control shadow-none"
          id='email'
-          placeholder="email"
+          placeholder="Email"
           name='epoct'
         />
       </div>

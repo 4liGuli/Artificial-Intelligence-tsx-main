@@ -3,10 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 import './App.css'
 
-
-
-// bura sehifenin hisseleri (kompoonentler) gelecek
-
 import Home from './components/Home'
 import About from './components/About'
 

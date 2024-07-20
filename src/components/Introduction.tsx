@@ -5,7 +5,6 @@ import Button from "./Button";
 
 const Introduction: React.FC = () => {
   return (
-    // JSX TSX
     <section className="introduction introduction-fon-rengi py-5">
         <div className="container text-white">
         <div className="row">

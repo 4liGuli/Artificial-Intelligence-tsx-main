@@ -17,8 +17,6 @@ import { Pagination } from 'swiper/modules';
 
 const Mukafatlar:React.FC = () => {
 
-
-// if else for loop qetiyyen useState, useEffect, useRef
   return (
     <div className='py-5 award-section'>
 

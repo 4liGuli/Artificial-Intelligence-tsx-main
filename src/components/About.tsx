@@ -2,7 +2,7 @@ import React from 'react'
 
 const About:React.FC = () => {
   return (
-    <div>Sen haqqimizda sehifesindesen :)</div>
+    <div>About</div>
   )
 }
 

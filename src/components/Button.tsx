@@ -7,8 +7,6 @@ interface ButtonProps {
 }
 
 const Button:React.FC<ButtonProps> = ({inTextBtn, shekil, klassAdi}) => {
-  // debugging
-
 
   return (
     <button className={klassAdi}> <img src={shekil} alt="" /> {inTextBtn} </button>

@@ -17,11 +17,7 @@ const navbariAc = () => {
   if(casusElement.current){
     casusElement.current.classList.add("aktiv")
   }
-
 }
-  
-
-// useNavigate()
 
 const navbariBagla = () => {
   if(casusElement.current) {
@@ -75,11 +71,9 @@ const navbariBagla = () => {
           <Link className="nav-link text-white" to="/bizimle-elaqe">Contact</Link>
         </li>
       
-       
       </ul>
 
       <Button inTextBtn="Sign in" shekil='' klassAdi="sign-in" />
-
 
     </div>
   </div>

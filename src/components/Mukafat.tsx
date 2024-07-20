@@ -1,12 +1,10 @@
 import React from 'react'
 
-
 interface MukafatProps {
   mukafatTitle:string;
   mukafatImg:string;
   mukafatParaqraf:string
 }
-
 
 const Mukafat:React.FC<MukafatProps> = ({mukafatTitle, mukafatImg, mukafatParaqraf}) => {
   return (
