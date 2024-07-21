@@ -88,270 +88,267 @@ height: 52px;
 .watch-video {
   width: 217px;
   height: 57px;
+}
   
-  }
+.get-started {
+width: 171px;
+height: 57px;
+}
+
+
+.mySwiper {
+  display: flex !important;
+}
+
+.mySwiper img {
+  height: 70px;
+}
+
+.mobile-menu {
+  height: 100vh;
+  width: 0;
+  position: fixed;
+  background:rgba(0,0,0,.6);
+  overflow-x:hidden;
+  z-index: 999999;
+  transition: all 0.3s linear;
+}
+
+.mobile-menu.aktiv {
+  width: 100%;
+}
+
+.mobile-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.mobile-links a {
+  color:#fff;
+  text-decoration: none;
+  font-size: 28px;
+}
+
+.closeicon {
+  position: absolute;
+  right: 40px;
+  top: 20px;
+  font-size:30px;
+}
+
+.sshirketler{
+  background:linear-gradient(to right, var(--introduction-left), var(--introduction-right) );
+}
+.deep-learning {
+  background-color: var(--header2);
+}
+
+.deep-learning h2{
+  margin-left: 10%;
+  font-size: 40px;
+}
+.deep-learning article{
+  margin-left: 10%;
+  font-size: 16px;
+}
+.deep-learning button{
+  margin-left: 10%;
+}
+.award-section{
+  background-color: var(--header2);
+}
+
+.award-card {
+  background: linear-gradient(to bottom, var(--awardup-card), var(--awarddown-card));
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet{
+  background-color: #2C3647;
+  width: 15px;
+  height: 15px;
+}
+
+.award-card img {
+  width: 73px;
+  display: block;
+  margin: 20px auto;
+}
+
+.award-card h2{
+  color: #b7babe;
+  font-size: 25px;
+}
+
+.award-card p{
+  color: #b7babe;
+  font-size: 16px;
+  margin: 30px 0;
+}
+
+.clients-say {
+  background-color: var(--header2);
+}
+.clients-say h2{
+  font-size: 40px;
+  margin-left: 10%;
+}
+.clients-say article{
+  font-size: 16px;
+  color: #b7babe;
+  margin-left: 10%;
+}
+
+.end-ing{
+  background-color: var(--endingg);
+
+}
+.logo-iconsend{
+  max-width: 1280px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.logo-iconend-row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo-icon1end ul{
+  list-style: none;
+  padding: 0;
+}
+
+.logo-icon1end{
+  margin-bottom: 40px;
+  padding: 0 35px;
+}
+
+.logo-icon1end h2{
+  font-size: 18px;
+  color: #3A68B8;
+  text-transform: capitalize;
+  margin-bottom: 1px;
+  font-weight: 500;
+  position: relative;
+}
+
+.logo-icon1end h5{
+  font-size: 18px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 500;
+  position: relative;
+}
+
+.logo-icon1end ul li a{
+  font-size: 14px;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 450;
+  color: #bbbbbb;
+  margin-bottom: 20px;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.logo-icon1end ul li a:hover{
+  color: #FFFFFF;
+  padding-left: 8px;
+}
+
+.logo-icon11end ul nav li a{
+  font-weight: 450;
+  color: white;
+  margin-bottom: 15px;
+}
+
+form {
+  width: 503px;
+  background-color: var(--award-card);
+  box-shadow: 0px 0px 100px var(--btn-rengi);
+  padding: 50px;
+  border-radius: 10px;
+
   
-  .get-started {
-  width: 171px;
-  height: 57px;
-  }
+}
 
-
-  .mySwiper {
-    display: flex !important;
-  }
-
-  .mySwiper img {
-    height: 70px;
-  }
+form input, form textarea {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  border-bottom: 1px solid #dedede !important;
+  resize: none;
+  color:#fff !important;
   
-  .mobile-menu {
-    height: 100vh;
-    width: 0;
-    position: fixed;
-    background:rgba(0,0,0,.6);
-    overflow-x:hidden;
-    z-index: 999999;
-    transition: all 0.3s linear;
-  }
+}
 
-  .mobile-menu.aktiv {
-    width: 100%;
-  }
+.contact-form {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:linear-gradient(to bottom,var(--header-left), var(--header-right));
+}
 
-  .mobile-links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  }
+.form-group label{
+  color: var(--btn-rengi);
+}
 
-  .mobile-links a {
-    color:#fff;
-    text-decoration: none;
-    font-size: 28px;
-  }
-
-  .closeicon {
-    position: absolute;
-    right: 40px;
-    top: 20px;
-    font-size:30px;
-  }
-
-  .sshirketler{
-    background:linear-gradient(to right, var(--introduction-left), var(--introduction-right) );
-  }
-  .deep-learning {
-    background-color: var(--header2);
-  }
-
-  .deep-learning h2{
-    margin-left: 10%;
-    font-size: 40px;
-  }
-  .deep-learning article{
-    margin-left: 10%;
-    font-size: 16px;
-  }
-  .deep-learning button{
-    margin-left: 10%;
-  }
-  .award-section{
-    background-color: var(--header2);
-  }
-
-  .award-card {
-    background: linear-gradient(to bottom, var(--awardup-card), var(--awarddown-card));
-    border-radius: 15px;
-    padding: 30px;
-  }
-
-  .swiper-pagination-clickable .swiper-pagination-bullet{
-    background-color: #2C3647;
-    width: 15px;
-    height: 15px;
-  }
-
-  .award-card img {
-    width: 73px;
-    display: block;
-    margin: 20px auto;
-  }
-
-  .award-card h2{
-    color: #b7babe;
-    font-size: 25px;
-  }
-
-  .award-card p{
-    color: #b7babe;
-    font-size: 16px;
-    margin: 30px 0;
-  }
-
-  .clients-say {
-    background-color: var(--header2);
-  }
-  .clients-say h2{
-    font-size: 40px;
-    margin-left: 10%;
-  }
-  .clients-say article{
-    font-size: 16px;
-    color: #b7babe;
-    margin-left: 10%;
-  }
-
-  .end-ing{
-    background-color: var(--endingg);
-
-  }
-  .logo-iconsend{
-    max-width: 1280px;
-    margin: auto;
-    margin-top: 50px;
-  }
-  
-  .logo-iconend-row{
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .logo-icon1end ul{
-    list-style: none;
-    padding: 0;
-  }
-  
-  .logo-icon1end{
-    margin-bottom: 40px;
-    padding: 0 35px;
-  }
-  
-  .logo-icon1end h2{
-    font-size: 18px;
-    color: #3A68B8;
-    text-transform: capitalize;
-    margin-bottom: 1px;
-    font-weight: 500;
-    position: relative;
-  }
-  
-  .logo-icon1end h5{
-    font-size: 18px;
-    color: #FFFFFF;
-    text-transform: capitalize;
-    margin-bottom: 30px;
-    font-weight: 500;
-    position: relative;
-  }
-  
-  .logo-icon1end ul li a{
-    font-size: 14px;
-    text-transform: capitalize;
-    text-decoration: none;
-    font-weight: 450;
-    color: #bbbbbb;
-    margin-bottom: 20px;
-    display: block;
-    transition: all 0.3s ease;
-  }
-  
-  .logo-icon1end ul li a:hover{
-    color: #FFFFFF;
-    padding-left: 8px;
-  }
-  
-  .logo-icon11end ul nav li a{
-    font-weight: 450;
-    color: white;
-    margin-bottom: 15px;
-  }
-
-  form {
-    width: 503px;
-    background-color: var(--award-card);
-    box-shadow: 0px 0px 100px var(--btn-rengi);
-    padding: 50px;
-    border-radius: 10px;
-
-    
-  }
-
-  form input, form textarea {
-    background-color: transparent !important;
-    border-color: transparent !important;
-    border-bottom: 1px solid #dedede !important;
-    resize: none;
-    color:#fff !important;
-    
-  }
-
-
-  .contact-form {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background:linear-gradient(to bottom,var(--header-left), var(--header-right));
-
-  }
-  .form-group label{
-    color: var(--btn-rengi);
-  }
-  
 
 @media(max-width:576px) {
-    .deep-right {
-      margin-top: 70px;
-    }
-    .clients-say h2{
-      font-size: 25px;
-      margin-left: 5%;
-    }
-    .clients-say article{
-      font-size: 12px;
-      margin-left: 5%;
-    }
-    .deep-learning h2{
-      margin-left: 5%;
-      font-size: 25px;
-    }
-    .deep-learning article{
-      margin-left: 5%;
-      font-size: 12px;
-    }
-    .deep-learning button{
-      margin-left: 5%;
-    }
-    .introduction h6{
-      font-size: 12px;
-      margin-left: 0%;
-      margin-top: -50px;
-    }
-    
-    .introduction p{
-      font-size: 12px;
-      margin-left: 0%;
-    }
-    
-    .introduction h1{
-      font-size: 35px;
-      margin-left: 0%;
-    }
-    
-    .introduction .get-started{
-      margin-left: 0%;
-    }
-    .navbar-brand img{
-      margin-left: 0%;
-    }
+  .deep-right {
+    margin-top: 70px;
+  }
+  .clients-say h2{
+    font-size: 25px;
+    margin-left: 5%;
+  }
+  .clients-say article{
+    font-size: 12px;
+    margin-left: 5%;
+  }
+  .deep-learning h2{
+    margin-left: 5%;
+    font-size: 25px;
+  }
+  .deep-learning article{
+    margin-left: 5%;
+    font-size: 12px;
+  }
+  .deep-learning button{
+    margin-left: 5%;
+  }
+  .introduction h6{
+    font-size: 12px;
+    margin-left: 0%;
+    margin-top: -50px;
+  }
+  
+  .introduction p{
+    font-size: 12px;
+    margin-left: 0%;
+  }
+  
+  .introduction h1{
+    font-size: 35px;
+    margin-left: 0%;
+  }
+  
+  .introduction .get-started{
+    margin-left: 0%;
+  }
+  .navbar-brand img{
+    margin-left: 0%;
+  }
 }
 
 
 @media(min-width:768px) {
-  
   .logo {
     width: 300px;
   }
@@ -364,50 +361,50 @@ height: 52px;
     width: 171px;
     height: 57px;
   }
-    .deep-right {
-      margin-top: 70px;
-    }
-    .clients-say h2{
-      font-size: 25px;
-      margin-left: 5%;
-    }
-    .clients-say article{
-      font-size: 12px;
-      margin-left: 5%;
-    }
-    .deep-learning h2{
-      margin-left: 5%;
-      font-size: 25px;
-    }
-    .deep-learning article{
-      margin-left: 5%;
-      font-size: 12px;
-    }
-    .deep-learning button{
-      margin-left: 5%;
-    }
-    .introduction h6{
-      font-size: 12px;
-      margin-left: 0%;
-      margin-top: -50px;
-    }
-    
-    .introduction p{
-      font-size: 12px;
-      margin-left: 0%;
-    }
-    
-    .introduction h1{
-      font-size: 35px;
-      margin-left: 0%;
-    }
-    
-    .introduction .get-started{
-      margin-left: 0%;
-    }  
-    .navbar-brand img{
-      margin-left: 0%;
-    }
+  .deep-right {
+    margin-top: 70px;
+  }
+  .clients-say h2{
+    font-size: 25px;
+    margin-left: 5%;
+  }
+  .clients-say article{
+    font-size: 12px;
+    margin-left: 5%;
+  }
+  .deep-learning h2{
+    margin-left: 5%;
+    font-size: 25px;
+  }
+  .deep-learning article{
+    margin-left: 5%;
+    font-size: 12px;
+  }
+  .deep-learning button{
+    margin-left: 5%;
+  }
+  .introduction h6{
+    font-size: 12px;
+    margin-left: 0%;
+    margin-top: -50px;
+  }
+  
+  .introduction p{
+    font-size: 12px;
+    margin-left: 0%;
+  }
+  
+  .introduction h1{
+    font-size: 35px;
+    margin-left: 0%;
+  }
+  
+  .introduction .get-started{
+    margin-left: 0%;
+  }  
+  .navbar-brand img{
+    margin-left: 0%;
+  }
 }
 
 
@@ -420,52 +417,52 @@ height: 52px;
     height: 57px;
     
   }  
-    .get-started {
-    width: 171px;
-    height: 57px;
-    }
-    .deep-right {
-      margin-top: 70px;
-    }
-    .clients-say h2{
-      font-size: 35px;
-      margin-left: 10%;
-    }
-    .clients-say article{
-      font-size: 18px;
-      margin-left: 10%;
-    }
-    .deep-learning h2{
-      margin-left: 10%;
-      font-size: 35px;
-    }
-    .deep-learning article{
-      margin-left: 10%;
-      font-size: 18px;
-    }
-    .deep-learning button{
-      margin-left: 10%;
-    }
-    .introduction h6{
-      font-size: 18px;
-      margin-left: 10%;
-      margin-top: 0px;
-    }
-    
-    .introduction p{
-      font-size: 18px;
-      margin-left: 10%;
-    }
-    
-    .introduction h1{
-      font-size: 55px;
-      margin-left: 10%;
-    }
-    
-    .introduction .get-started{
-      margin-left: 10%;
-    }
-    .navbar-brand img{
-      margin-left: 20%;
-    }
+  .get-started {
+  width: 171px;
+  height: 57px;
+  }
+  .deep-right {
+    margin-top: 70px;
+  }
+  .clients-say h2{
+    font-size: 35px;
+    margin-left: 10%;
+  }
+  .clients-say article{
+    font-size: 18px;
+    margin-left: 10%;
+  }
+  .deep-learning h2{
+    margin-left: 10%;
+    font-size: 35px;
+  }
+  .deep-learning article{
+    margin-left: 10%;
+    font-size: 18px;
+  }
+  .deep-learning button{
+    margin-left: 10%;
+  }
+  .introduction h6{
+    font-size: 18px;
+    margin-left: 10%;
+    margin-top: 0px;
+  }
+  
+  .introduction p{
+    font-size: 18px;
+    margin-left: 10%;
+  }
+  
+  .introduction h1{
+    font-size: 55px;
+    margin-left: 10%;
+  }
+  
+  .introduction .get-started{
+    margin-left: 10%;
+  }
+  .navbar-brand img{
+    margin-left: 20%;
+  }
 }
